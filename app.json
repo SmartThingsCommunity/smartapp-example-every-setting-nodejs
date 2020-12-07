@@ -1,0 +1,12 @@
+{
+    "name": "Every Setting Example",
+    "description": "Shows an example of every page setting type in the SmartApp SDK.",
+    "repository": "https://github.com/SmartThingsCommunity/smartapp-example-every-setting-nodejs",
+    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+    "keywords": [
+        "smartthings",
+        "smartapp-example",
+        "node",
+        "express"
+    ]
+}
