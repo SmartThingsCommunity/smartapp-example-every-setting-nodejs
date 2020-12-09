@@ -1,7 +1,7 @@
 # Every Setting Example
 
 This SmartApp has multiple configuration pages that contain examples of all 
-[setting types](https://github.com/SmartThingsCommunity/smartapp-sdk-nodejs/blob/master/docs/classes/_pages_section_d_.section.md)
+[setting types](https://github.com/SmartThingsCommunity/smartapp-sdk-nodejs/blob/master/docs/classes/_pages_section_d_.section.md).
 
 ## Start
 
