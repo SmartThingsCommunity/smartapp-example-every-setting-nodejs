@@ -1,4 +1,9 @@
 module.exports = (_, page) => {
+	page.section('footer', section => {
+		section.paragraphSetting('exampleFooter')
+		section.style('FOOTER') // ensures section is always rendered at bottom of page
+	})
+
 	page.nextPageId('devicesPage')
 	page.complete(true)
 
@@ -14,5 +19,6 @@ module.exports = (_, page) => {
 	page.section('effects', section => {
 		section.pageSetting('collapsable').page('collapsablePage')
 		section.pageSetting('dynamicPage').page('dynamicPage')
+		section.pageSetting('splashPage').page('splashPage')
 	})
 }
