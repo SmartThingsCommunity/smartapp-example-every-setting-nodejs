@@ -4,14 +4,14 @@ module.exports = (context, page) => {
 
 	page.section('links', section => {
 		section.linkSetting('linkSetting')
-			.url('http://www.smartthings.com')
+			.url('https://www.smartthings.com')
+
 		section.linkSetting('linkButtonSetting')
-			.url('http://www.smartthings.com')
+			.url('https://www.smartthings.com')
 			.style('BUTTON')
 	})
 
 	page.section('pages', section => {
-
 		const phoneNumbers = [
 			context.configStringValue('notifyPhone1'),
 			context.configStringValue('notifyPhone2'),
@@ -37,10 +37,10 @@ module.exports = (context, page) => {
 
 		section.oauthSetting('link')
 			.urlTemplate(url)
-
 	})
 
 	page.section('footer', section => {
 		section.pageSetting('indexPage')
+		section.style('FOOTER')
 	})
 }

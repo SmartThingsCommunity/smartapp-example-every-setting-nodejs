@@ -3,7 +3,6 @@ module.exports = (_, page) => {
 	page.nextPageId('enumsPage')
 
 	page.section('section1', section => {
-
 		// Single-select device with default read permission
 		section.deviceSetting('sensor')
 			.capability('contactSensor')
@@ -18,7 +17,7 @@ module.exports = (_, page) => {
 			.capabilities(['switch', 'powerMeter'])
 			.multiple(true)
 
-		// Device with read and execute permissions, i.e. can bew sent commands
+		// Device with read and execute permissions, i.e. can be sent commands
 		section.deviceSetting('actuator')
 			.capability('switch')
 			.permissions('rx')
@@ -26,5 +25,6 @@ module.exports = (_, page) => {
 
 	page.section('footer', section => {
 		section.pageSetting('indexPage')
+		section.style('FOOTER')
 	})
 }

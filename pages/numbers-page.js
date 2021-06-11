@@ -2,7 +2,6 @@ module.exports = (_, page) => {
 	page.previousPageId('linksPage')
 	page.nextPageId('textPage')
 
-	// prompts user to select a contact sensor
 	page.section('numbers', section => {
 		section.numberSetting('number')
 
@@ -10,7 +9,8 @@ module.exports = (_, page) => {
 			.min(-2000)
 			.max(10000)
 
-		section.numberSetting('decimal')
+		section.decimalSetting('decimal')
+			.postMessage('')
 
 		section.decimalSetting('decimalWithUnits')
 			.min(-5)
@@ -27,9 +27,10 @@ module.exports = (_, page) => {
 			.max(9000)
 			.step(100)
 			.style('SLIDER')
-	});
+	})
 
 	page.section('footer', section => {
 		section.pageSetting('indexPage')
+		section.style('FOOTER')
 	})
 }

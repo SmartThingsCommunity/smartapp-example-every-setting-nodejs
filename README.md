@@ -51,4 +51,3 @@ Follow the instructions for [testing a SmartApp](https://smartthings.developer.s
 * smartapp.js &mdash; the SmartApp implementation
 * server.js &mdash; the Express server that hosts the SmartApp as a webhook
 * locales/en.json &mdash; English version of the app configuration page text
-

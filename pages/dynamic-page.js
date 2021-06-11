@@ -1,9 +1,8 @@
 module.exports = (context, page) => {
 	page.previousPageId('collapsablePage')
-	page.nextPageId('indexPage')
+	page.nextPageId('splashPage')
 
 	page.section('main', section => {
-
 		section.enumSetting('dynamicAction')
 			.submitOnChange(true)
 			.options(['turnOn', 'setLevel', 'setLevelAndColorTemp'])
@@ -30,5 +29,6 @@ module.exports = (context, page) => {
 
 	page.section('footer', section => {
 		section.pageSetting('indexPage')
+		section.style('FOOTER')
 	})
 }

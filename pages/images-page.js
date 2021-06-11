@@ -4,24 +4,26 @@ module.exports = (_, page) => {
 
 	page.section('image', section => {
 		section.imageSetting('imageSetting')
-			.image('https://mk0teamcolorcodtgc6i.kinstacdn.com/wp-content/uploads/2017/11/arsenal_crest_colors.jpg')
+			.image('https://st-platformint-example-content.s3.us-east-2.amazonaws.com/image/wwst_dark.png')
 	})
 
 	page.section('images', section => {
 		section.imagesSetting('imagesSetting')
 			.images([
-				'https://mk0teamcolorcodtgc6i.kinstacdn.com/wp-content/uploads/2017/11/manchester_united_logo_colors.png',
-				'https://mk0teamcolorcodtgc6i.kinstacdn.com/wp-content/uploads/2018/08/aston_villa_fc-221x300.png',
-				'https://mk0teamcolorcodtgc6i.kinstacdn.com/wp-content/uploads/2017/11/leicester_city_fc_colors.png'
+				'https://st-platformint-example-content.s3.us-east-2.amazonaws.com/image/smarttag_4.png',
+				'https://st-platformint-example-content.s3.us-east-2.amazonaws.com/image/smarttag_5.png',
+				'https://st-platformint-example-content.s3.us-east-2.amazonaws.com/image/wwst_light.png'
 			])
 	})
 
 	page.section('video', section => {
 		section.videoSetting('video')
-			.video('https://st-bob-misc-stuff.s3.amazonaws.com/videos/incidents/video1.mp4')
+			.image('https://st-platformint-example-content.s3.us-east-2.amazonaws.com/image/no_worries_thumbnail.png')
+			.video('https://st-platformint-example-content.s3.us-east-2.amazonaws.com/video/samsung_smartthings_no_worries.mp4')
 	})
 
 	page.section('footer', section => {
 		section.pageSetting('indexPage')
+		section.style('FOOTER')
 	})
 }

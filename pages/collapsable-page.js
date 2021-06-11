@@ -13,4 +13,9 @@ module.exports = (_, page) => {
 		section.modeSetting('whenMode')
 		section.timeSetting('afterTime')
 	})
+
+	page.section('footer', section => {
+		section.pageSetting('indexPage')
+		section.style('FOOTER')
+	})
 }
