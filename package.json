@@ -14,10 +14,10 @@
   "author": "SmartThings",
   "license": "Apache-2.0",
   "dependencies": {
-    "@smartthings/smartapp": "^2.5.3",
-    "express": "^4.17.1"
+    "@smartthings/smartapp": "^2.6.1",
+    "express": "^4.17.2"
   },
   "engines": {
-    "node": "^12 || ^14"
+    "node": "^14"
   }
 }
