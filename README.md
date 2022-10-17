@@ -1,7 +1,7 @@
 # Every Setting Example
 
-This SmartApp has multiple configuration pages that contain examples of all 
-[setting types](https://github.com/SmartThingsCommunity/smartapp-sdk-nodejs/blob/master/docs/classes/_pages_section_d_.section.md).
+This SmartApp has multiple configuration pages that contain examples of all
+[setting types](https://github.com/SmartThingsCommunity/smartapp-sdk-nodejs/blob/main/docs/classes/_pages_section_d_.section.md).
 
 ## Start
 
@@ -27,8 +27,8 @@ Copy the [Live Site URL](https://glitch.happyfox.com/kb/article/50-how-do-i-find
 
 We recommend using [ngrok](https://ngrok.com/) to create a globally available URL for fast testing.
 
-`npm install`  
-`npm start`  
+`npm install`
+`npm start`
 `ngrok http 3001`
 
 ## Register
@@ -36,7 +36,7 @@ We recommend using [ngrok](https://ngrok.com/) to create a globally available UR
 Follow the instructions for [registering a SmartApp](https://smartthings.developer.samsung.com/docs/smartapps/app-registration.html) with the SmartThings platform.
 
 - The following OAuth2 scopes are required.
-    - `r:devices:*` 
+    - `r:devices:*`
     - `r:locations:*`
     - `r:scenes:*`
 
